@@ -1,0 +1,30 @@
+{
+  "business_name": "Парикмахерская",
+  "timezone": "Europe/Moscow",
+  "admin_chat_id": 1262695108,
+  "work_hours": {
+    "slot_minutes": 30,
+    "days": {
+      "Monday": { "start": "10:00", "end": "22:00" },
+      "Tuesday": { "start": "10:00", "end": "22:00" },
+      "Wednesday": { "start": "10:00", "end": "22:00" },
+      "Thursday": { "start": "10:00", "end": "22:00" },
+      "Friday": { "start": "10:00", "end": "22:00" },
+      "Saturday": { "start": "10:00", "end": "18:00" },
+      "Sunday": { "start": "10:00", "end": "18:00" }
+    }
+  },
+  "services": [
+    { "id": "haircut_zero", "name": "Стрижка под 0", "duration_min": 5, "price": 600 }
+  ],
+  "masters": [
+    { "id": "alexey", "name": "Алексей" },
+    { "id": "grigoriy", "name": "Григорий" }
+  ],
+  "faq": [
+    { "q": "Как записаться?", "a": "Через этот бот: нажмите «Записаться» и выберите удобное время" },
+    { "q": "Как оплатить?", "a": "Наличными или картой на месте" },
+    { "q": "Можно ли отменить или перенести запись?", "a": "Да, напишите нам в этот чат заранее" }
+  ],
+  "reminder_hours_before": 24
+}
